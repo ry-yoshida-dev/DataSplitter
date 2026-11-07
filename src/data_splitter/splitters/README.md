@@ -2,7 +2,7 @@
 
 ## Overview
 
-Concrete `DatasetSplitter` strategies. Choose by how samples relate to each other: independent samples suit k-fold, holdout, or their repeated forms, very small datasets suit leave-one-out, correlated samples need group folds or their leave-out and repeated forms, imbalanced classes need stratified forms, partitions fixed in advance use predefined folds, temporal data needs forward chaining or purged folds, and one-class models train on one class.
+Concrete `DatasetSplitter` strategies, one per file.
 
 ## Components
 
